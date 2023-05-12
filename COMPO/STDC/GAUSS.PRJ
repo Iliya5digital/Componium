@@ -1,0 +1,6 @@
+gauss.tos
+=
+clstart.o
+gauss.c
+pcfltlib.lib
+pcstdlib.lib
