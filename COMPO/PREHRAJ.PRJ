@@ -1,0 +1,17 @@
+prehraj.o
+.L[-J]
+; project file pro Pure C (ver. 16. 8. 1991)
+; prehravani COC souboru
+; projekt zahajen 3/1994
+; posl. zmena zatim 3/1994
+=
+\c\suma\sttos\cookie.c
+\c\suma\stdc\dynpole.c
+\c\suma\stdc\dynbuff.c
+\c\suma\stdc\fileutil.c
+\c\suma\sttos\samples.c
+faldigia.s ; digi na Falconu
+faldigi.c
+digill.c
+cocdigi.c
+cocload.c

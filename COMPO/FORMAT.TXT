@@ -1,0 +1,11 @@
+Jednotka:
+	[0] - nota:
+		TC..PPau-1 : Ÿ¡slo cel‚ho t¢nu
+	[1] - atributy:
+		0,KrizekA,BeckoA,OdrazA,Soubezna
+	[2] - d‚lka:
+		jako zlomek doby : [2]/Takt
+	[3] - nula
+	
+??? Nejprve jsou prav‚ noty (Ÿasovac¡), pak k nim pýidan‚ noty "Soubezna".
+Je to naopak - neprav‚, pak teprve prav‚ - pozor na to!!!

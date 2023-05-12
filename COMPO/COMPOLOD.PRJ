@@ -1,0 +1,3 @@
+DSPOPT = -Z
+
+>compo.lod: compo.asm $(PROJECT).prj

@@ -1,0 +1,6 @@
+zvuky.tos
+=
+pcstart.o
+zvuky.c
+pcstdlib.lib
+pctoslib.lib

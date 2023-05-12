@@ -1,0 +1,47 @@
+compo.app
+.L[-M -S=32000]
+; project file pro Pure C (ver. 16. 8. 1991)
+; projekt zahajen asi 9/1992
+; posl. zmena zatim 3/1994
+=
+pcvstart.o
+\c\suma\stdc\dynbuff.c
+\c\suma\stdc\budiky.c
+\c\suma\stdc\infosoub.c
+\c\suma\sttos\narod.c
+\c\suma\sttos\samples.c
+\c\suma\sttos\stesound.c
+;\c\suma\sttos\cookie.s
+;\c\suma\sttos\cookielc.c
+pcspritm.s
+notyimg.c
+strcompo.c (utlcompo.h)
+memcompo.c (utlcompo.h)
+intcompo.c (utlcompo.h)
+rekcompo.c (utlcompo.h)
+txtcompo.c (utlcompo.h)
+mdfcompo.c (utlcompo.h,compo.h)
+logcompo.c (utlcompo.h,llhraj.h,compo.h)
+grfcompo.c (utlcompo.h)
+edtcompo.c (utlcompo.h,compo.h)
+spccompo.c (utlcompo.h,compo.h)
+faldigia.s ; digi na Falconu
+faldigi.c (llhraj.h,faldigia.h,digill.h)
+digill.c (llhraj.h,digill.h)
+digiedit.c (llhraj.h,digill.h,compo.h)
+;midill.c (llhraj.h,digill.h,compo.h)
+plycompo.c (utlcompo.h,comcompo.h,digill.h,llhraj.h,compo.h)
+comcompo.c (utlcompo.h,comcompo.h,digill.h,llhraj.h,compo.h)
+orccompo.c (utlcompo.h,digill.h,llhraj.h)
+mnucompo.c (utlcompo.h,compo.h)
+tolcompo.c (utlcompo.h,compo.h)
+toncompo.c (utlcompo.h,compo.h)
+vybcompo.c (utlcompo.h,llhraj.h,compo.h)
+ramcompo.c (utlcompo.h,compo.h)
+\c\suma\gem\pcmultii.prj
+\c\suma\stdc\mempool.c
+pcfltlib.lib
+pcstdlib.lib
+pcgemlib.lib
+pctoslib.lib
+pclnalib.lib

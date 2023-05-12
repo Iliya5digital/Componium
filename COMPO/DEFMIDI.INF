@@ -1,0 +1,198 @@
+REM Componium - General Midi Import Setup
+REM Release: 94/11/30
+
+Quant 2 * Quantization in 1/64
+
+REM Voice Map
+
+Default piano
+
+Prog 1 piano * Piano 1
+Prog 2 piano * Piano 2
+Prog 3 piano * Piano 3
+Prog 4 piano * Honky Tonk Piano
+Prog 5 piano * E-piano 1
+Prog 6 piano * E-piano 2
+Prog 7 harpsichord2 * Harpsichord
+Prog 8 harpsichord3 * Clavinet
+Prog 9 glockenspiel * Celesta
+Prog 10 glockenspiel * Glockenspiel
+Prog 11 glockenspiel * Music Box
+Prog 12 marimba * Vibraphone
+Prog 13 marimba * Marimba
+Prog 14 marimba * Xylophone
+Prog 15 glockenspiel * Tubular Bells
+Prog 16 marimba * Dulcimer
+Prog 17 organ * Organ 1
+Prog 18 organ * Organ 2
+Prog 19 organ * Organ 3
+Prog 20 organ_full_stops * Church Organ
+Prog 21 organ * Reed Organ
+Prog 22 accordion * Accordion
+Prog 23 accordion * Harmonica
+Prog 24 accordion * Bandoneon
+Prog 25 guitar_nylon * Nylon String Guitar
+Prog 26 guitar_steel * Steel String Guitar
+Prog 27 guitar_steel * Jazz Guitar
+Prog 28 guitar_nylon * Clean Guitar
+Prog 29 guitar_mute * Mute Guitar
+Prog 30 guitar_steel * Overdrive Guitar
+Prog 31 guitar_steel * Distortion Guitar
+Prog 32 violin_pizzicato * Guitar Harmonics
+Prog 33 bass_fretless * Wood Bass
+Prog 34 bass_slap * Fingered Bass
+Prog 35 bass_thunder * Picked Bass
+Prog 36 bass_fretless * Fretless Bass
+Prog 37 bass_slap * Slap Bass 1
+Prog 38 bass_slap * Slap Bass 2
+Prog 39 bass_stone * Synth Bass 1
+Prog 40 bass_stone * Synth Bass 2
+Prog 41 violin * Violin
+Prog 42 viola * Viola
+Prog 43 cello * Cello
+Prog 44 cello * Contrabasss
+Prog 45 violin * Tremolo Strings
+Prog 46 violin_pizzicato * Pizzicato Strings
+Prog 47 harp * Harp
+Prog 48 timpani * Timpani
+Prog 49 viola * String Ensemble 1
+Prog 50 viola * String Ensemble 2
+Prog 51 viola * Synth Strings 1
+Prog 52 viola * Synth Strings 2
+Prog 53 choir_aah * Aah Choir
+Prog 54 choir_aah * Ooh Choir
+Prog 55 choir_aah * Synth Choir
+Prog 56 ensemble_guitar * Orchestra Hit
+Prog 57 trumpet * Trumpet
+Prog 58 trumpet * Trombone
+Prog 59 trumpet * Tuba
+Prog 60 trumpet * Muted Trumpet
+Prog 61 trumpet * French Horn
+Prog 62 trumpet * Brass Section
+Prog 63 trumpet * Synth Brass 2
+Prog 64 trumpet * Synth Brass 2
+Prog 65 sax3 * Soprano Sax
+Prog 66 sax3 * Alto Sax
+Prog 67 sax1 * Tenor Sax
+Prog 68 sax1 * Barytone Sax
+Prog 69 oboe * Oboe
+Prog 70 sax3 * English Horn
+Prog 71 oboe * Bassoon
+Prog 72 clarinet * Clarinet
+Prog 73 recorder * Piccolo
+Prog 74 recorder * Flute
+Prog 75 recorder * Recorder
+Prog 76 shauhachi * Pan Flute
+Prog 77 clarinet * Bottle Blow
+Prog 78 recorder * Whistle
+Prog 79 shakuhachi * Shakuhachi
+Prog 80 recorder * Whistle
+Prog 81 recorder * Squre Wave
+Prog 82 recorder * Saw Wave
+Prog 83 guitar_nylon * Synth Caliope
+Prog 84 guitar_nylon * Chiffer Lead
+Prog 85 guitar_nylon * Charang
+Prog 86 choir_aah * Solo Vox
+Prog 87 recorder * 5th Saw Wave
+Prog 88 ensamble_steel * Bass & Lead
+Prog 89 marimba * Fantasia
+Prog 90 guitar_nylon * Warm Pad
+Prog 91 guitar_nylon * Polysynth
+Prog 92 choir_aah * Choir Pad
+Prog 93 marimba * Bowed Glass
+Prog 94 marimba * Metal Pad
+Prog 95 guitar_nylon * Halo Pad
+Prog 96 marimba * Sweep Pad
+Prog 97 _Rain * Rain
+Prog 98 _Soundtrack * Soundtrack
+Prog 99 marimba * Crystal
+Prog 100 choir_aah * Atmosphere
+Prog 101 marimba * Brightness
+Prog 102 marimba * Goblin
+Prog 103 choir_aah * Echoes
+Prog 104 choir_aah * Sci-fi
+Prog 105 harp * Sitar
+Prog 106 guitar_steel * Banjo
+Prog 107 guitar_nylon * Shamisen
+Prog 108 guitar_steel * Koto
+Prog 109 guitar_nylon * Kalimba
+Prog 110 guitar_nylon * Bag Pipe
+Prog 111 violin * Fiddle
+Prog 112 guitar_steel * Shanai
+Prog 113 glockenspiel * Tinkle Bell
+Prog 114 guitar_steel * Agogo
+Prog 115 _Steel_drums * Steel Drums
+Prog 116 wood * Woodblock
+Prog 117 harp * Taiko
+Prog 118 _Melodic_tom * Melodic Tom
+Prog 119 _Synth_drum * Synth Drum
+Prog 120 _Reverse_cymbal * Reverse Cymbal
+Prog 121 _Guitar_fret_noise * Guitar Fret Noise
+Prog 122 _Breath_noise * Breath Noise
+Prog 123 _Seashore * Seashore
+Prog 124 _Bird_tweet * Bird Tweet
+Prog 125 _Telephone * Telephone
+Prog 126 _Helicopter * Helicopter
+Prog 127 _Applause * Applause
+Prog 128 _Gun_shot * Gun Shot
+
+REM Percussion Map
+
+PercusChannel 10
+PercusDuration 16 * in 1/64
+
+Percus 31 wood 0
+Percus 32 wood 0
+Percus 33 wood 0
+Percus 34 wood 12
+Percus 35 kick 0
+Percus 36 kick 0
+Percus 37 kick 0
+Percus 38 kick_percussion 0
+Percus 39 hand_clap 0
+Percus 40 kick_percussion 12
+Percus 41 tom 0
+Percus 42 hihat_closed 0
+Percus 43 tom 4
+Percus 44 hihat_shut 0
+Percus 45 tom 0
+Percus 46 hihat_open 0
+Percus 47 tom 0
+Percus 47 tom 4
+Percus 48 tom 6
+Percus 49 cymbal_ride_2 0
+Percus 50 tom 12
+Percus 51 cymbal_ride_2 0
+Percus 52 hihat_23 0
+Percus 53 tambourine 0
+Percus 54 tambourine 0
+Percus 55 cymbal_choke 0
+Percus 56 tambourine 0 * Cowbell
+Percus 57 cymbal_ride_1 0
+Percus 58 _Vibraslap 0 * Vibraslap
+Percus 59 cymbal_ride_1 0
+Percus 60 wood -12 * Bongo
+Percus 61 wood -12 * Bongo
+Percus 62 finger_snap -12 * Conga
+Percus 63 finger_snap 0 * Conga
+Percus 64 finger_snap -12 * Conga
+Percus 65 tambourine -12 * Timbale
+Percus 66 tambourine -12 * Timbale
+Percus 67 tambourine 0 * Agogo
+Percus 68 tambourine -6 * Agogo
+Percus 69 hihat_23 0 * Cabasa
+Percus 70 tambourine 0 * Maracas
+Percus 71 _Whistle 0 * Whistle
+Percus 72 _Whistle 0 * Whistle
+Percus 73 _Guiro 0 * Guiro
+Percus 74 _Guiro 0 * Guiro
+Percus 75 _Claves 0 * Claves
+Percus 76 wood 0
+Percus 77 wood -12
+Percus 78 hihat_23 0 * Cuica
+Percus 79 hihat_23 0 * Cuica
+Percus 80 tambourine 6 * Triangl
+Percus 81 tambourine 12 * Triangl
+Percus 82 tambourine -12 * Shaker
+Percus 86 cymbal_choke 4 * Taico
+Percus 87 cymbal_choke 8 * Taico

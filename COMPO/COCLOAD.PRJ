@@ -1,0 +1,12 @@
+compoply.tos
+.L[-M -S=24000]
+; project file pro Pure C (ver. 16. 8. 1991)
+; projekt zahajen asi 9/1992
+; posl. zmena zatim 3/1994
+=
+pcstart.o
+prehraj.prj
+cocdemo.c
+pcstdlib.lib
+pctoslib.lib
+pcfltlib.lib
